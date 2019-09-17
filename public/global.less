@@ -1,0 +1,123 @@
+::-webkit-scrollbar {
+  width: 0;
+}
+
+.p-bg {
+  //min-height: 100vh;
+  background-color: #151a3b;
+  //padding: 20px 30px;
+  padding: @precision*20 @precision*30;
+}
+
+.action-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.action-bar button {
+  outline: none;
+  cursor: pointer;
+}
+
+.action-bar-left button {
+  padding: @precision*10 @precision*15;
+  font-size: @precision*20;
+  color: #ffffff;
+  background-color: #2a2f55;
+  border: none;
+}
+
+.action-bar-left button:first-child {
+  border-top-left-radius: @precision*10;
+  border-bottom-left-radius: @precision*10;
+}
+
+.action-bar-left button:last-child {
+  border-top-right-radius: @precision*10;
+  border-bottom-right-radius: @precision*10;
+}
+
+.action-bar-left button.p-active {
+  background-color: #0589f8;
+}
+
+.action-bar-right button {
+  padding: @precision*10 @precision*15;
+  font-size: @precision*20;
+  color: #ffffff;
+  background-color: #0589f8;
+  border-radius: @precision*10;
+  border: none;
+  margin-left: @precision*15;
+}
+
+
+//时间搜索
+.date-search .ivu-input-with-suffix {
+  background-color: #2a2f55;
+  border-color: #2a2f55;
+  color: #a5a8bb;
+  padding: @precision*10 0 @precision*10 32px;
+  font-size: @precision*18;
+  border-radius: @precision*10;
+  height: auto;
+}
+
+.date-change .ivu-input-with-suffix {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.date-search .ivu-input-suffix {
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.date-search .ivu-input-prefix i, .ivu-input-suffix i {
+  color: #a5a8bb;
+}
+
+//下拉选择
+.action-bar .ivu-select-selection {
+  background-color: #2a2f55;
+  border-color: #2a2f55;
+  color: #a5a8bb;
+  padding: @precision*10 0;
+  height: auto !important;
+  border-radius: @precision*10;
+  font-size: @precision*18 !important;
+}
+
+.action-bar .ivu-select-placeholder, .ivu-select-selected-value {
+  font-size: @precision*18 !important;
+  height: auto !important;
+  line-height: inherit !important;
+}
+
+
+.g2-legend-list-item {
+  display: inline-flex !important;
+  align-items: center;
+}
+
+//loading
+.ivu-spin-fix {
+  background-color: rgba(21, 26, 59, 0.8) !important;
+}
+
+
+//.ivu-loading-bar-inner-color-primary{
+//  background-color: #151A3B !important;
+//}
+//map
+.BMap_Marker img {
+  width: 40px;
+  height: 50px;
+}
+
+.login input {
+  background-color: rgba(33, 44, 94, 0.5) !important;
+}

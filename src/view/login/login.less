@@ -1,0 +1,60 @@
+.login {
+  width: 100%;
+  height: 100%;
+  background-image: url('../../assets/images/login-bg.png');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+
+  &-con {
+    width: @precision*700;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: @precision*400;
+    margin: auto;
+
+    &-header {
+      font-size: 16px;
+      font-weight: 300;
+      text-align: center;
+      padding: 30px 0;
+    }
+
+    .form-con {
+      padding: 10px 0 0;
+    }
+
+    .login-tip {
+      font-size: 10px;
+      color: #c3c3c3;
+    }
+
+    .login-tip .icon {
+      margin-right: 8px;
+    }
+
+    .login-tip .icon:hover {
+      cursor: pointer;
+    }
+
+    .ivu-input {
+      height: @precision*50;
+    }
+
+    .ivu-card-body {
+      padding: @precision*30 @precision*130 @precision*60;
+    }
+
+    .ivu-card, .ivu-card-body {
+      background-color: rgba(32, 43, 92, 0.3) !important;
+    }
+
+    //
+    //input:-internal-autofill-selected {
+    //  background-color: rgba(33, 44, 94, 0.5) !important;
+    //}
+  }
+}
