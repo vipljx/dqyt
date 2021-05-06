@@ -21,7 +21,7 @@
     "cropperjs": "^1.5.1",
     "dayjs": "^1.8.10",
     "echarts": "^4.2.0-rc.2",
-    "highcharts": "^7.1.2",
+    "highcharts": "^9.0.0",
     "highlight.js": "^9.15.6",
     "html2canvas": "^1.0.0-alpha.12",
     "iview": "^3.3.0",
